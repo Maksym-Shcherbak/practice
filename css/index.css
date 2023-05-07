@@ -13,15 +13,16 @@
   --secondary-font: Raleway, sans-serif;
 }
 
- body {
+body {
   font-family: var(--main-font);
   color: var(--text);
   background-color: #ffffff;
   font-size: 16px;
   letter-spacing: 0.02em;
-  
+
 
 }
+
 h1,
 h2,
 h3,
@@ -31,6 +32,7 @@ h6,
 p {
   margin: 0;
 }
+
 ul,
 ol {
   list-style: none;
@@ -67,6 +69,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -78,3 +81,26 @@ button {
   border: none;
   border-radius: 4px;
 }
+
+/* ---------HEADER--------- */
+
+.header {}
+
+.header .container {
+  display: flex;
+
+}
+
+.header-logo {}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item {}
+
+.header-link {}
